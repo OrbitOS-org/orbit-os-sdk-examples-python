@@ -3,5 +3,5 @@
   "name": "i2c",
   "appPath": "src/i2c",
   "certsDir": "certs/grpc",
-  "sdkVersion": "v26.0.3"
+  "sdkVersion": "v26.1.0"
 }

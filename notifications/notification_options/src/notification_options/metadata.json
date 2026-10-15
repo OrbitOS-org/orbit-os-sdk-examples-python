@@ -1,0 +1,11 @@
+{
+  "name": "Mobile Notification options",
+  "slug": "notification_options",
+  "version": "1.0.0",
+  "description": "Send a push notification with the optional fields: data for the mobile app, a collapse key and a time to live",
+  "entry_point": "main.py",
+  "permissions": [
+    "MobileNotificationService/Send"
+  ],
+  "package_id": "org.orbit-os.examples.notification_options"
+}

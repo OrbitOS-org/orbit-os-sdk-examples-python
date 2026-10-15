@@ -3,5 +3,5 @@
   "name": "wifi_status",
   "appPath": "src/wifi_status",
   "certsDir": "certs/grpc",
-  "sdkVersion": "v26.0.3"
+  "sdkVersion": "v26.1.0"
 }

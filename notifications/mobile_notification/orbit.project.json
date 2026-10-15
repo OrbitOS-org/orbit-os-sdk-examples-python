@@ -1,0 +1,7 @@
+{
+  "language": "python",
+  "name": "mobile_notification",
+  "appPath": "src/mobile_notification",
+  "certsDir": "certs/grpc",
+  "sdkVersion": "v26.1.0"
+}

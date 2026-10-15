@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Orbit OS example icon: notification_options. The Orbit OS tile (orbit-os-project-manager context/brand.md) with the example's drawing in its own colours. -->
+  <rect width="64" height="64" rx="10" fill="#0a0f1a"/>
+    <path d="M10 37h22l-3.5-4.5v-8a7.5 7.5 0 0 0-15 0v8z" fill="#ffca28"/>
+    <path d="M17.5 40.5a3.5 3.5 0 0 0 7 0z" fill="#ffca28"/>
+    <rect x="35" y="16" width="20" height="10" rx="5" fill="#43c46b"/><circle cx="50" cy="21" r="3.6" fill="#ffffff"/>
+    <rect x="35" y="30" width="20" height="10" rx="5" fill="#455a64"/><circle cx="40" cy="35" r="3.6" fill="#ffffff"/>
+    <rect x="35" y="44" width="20" height="10" rx="5" fill="#43c46b"/><circle cx="50" cy="49" r="3.6" fill="#ffffff"/>
+</svg>

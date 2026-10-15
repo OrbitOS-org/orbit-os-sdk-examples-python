@@ -32,6 +32,7 @@ Information about the device and its state.
 | Example | What it shows | Services used |
 |---|---|---|
 | [`metrics_info`](system/metrics_info) | Read one snapshot of CPU, memory, disk and temperature metrics | System |
+| [`device_certification`](system/device_certification) | Check whether the app runs on certified hardware and read the certification serial | System |
 
 ### Peripherals — [`peripherals/`](peripherals)
 
@@ -58,6 +59,15 @@ Network interfaces of the device.
 | [`eth_status`](network/eth_status) | List the Ethernet interfaces with link state and IP configuration | Ethernet |
 | [`wifi_status`](network/wifi_status) | Show, for each WiFi interface, whether it is connected, its mode and the details of the connection or access point | WiFi |
 
+### Notifications — [`notifications/`](notifications)
+
+Push notifications to the owner's phone. Needs internet access and an Orbit OS account on the device.
+
+| Example | What it shows | Services used |
+|---|---|---|
+| [`mobile_notification`](notifications/mobile_notification) | Send a push notification to the phones linked to the device owner's account | Mobile notifications |
+| [`notification_options`](notifications/notification_options) | Send a push notification with the optional fields: data for the mobile app, a collapse key and a time to live | Mobile notifications |
+
 ### Media and AI — [`media-ai/`](media-ai)
 
 Cameras. Examples of on-device inference will be added here.
@@ -73,6 +83,8 @@ Apps with a page in the Orbit OS Launcher.
 | Example | What it shows | Services used |
 |---|---|---|
 | [`hello_web`](web-ui/hello_web) | Serve a web page through the Orbit OS Launcher, behind the device login | System, AppHub |
+
+`mobile_notification`, `notification_options` and `device_certification` use features added in **API 26.1**. They need a device with API 26.1 or newer; the other examples also run on API 26.0.
 
 The hardware examples (`gpio_*`, `pwm*`, `i2c`, `spi`, `uart`, `camera_snapshot`) use the pins, buses and ports set as constants at the top of each `main.py`. Change them to match your board and wiring before you run.
 
@@ -91,7 +103,7 @@ You need [VS Code](https://code.visualstudio.com/) with the Orbit Studio extensi
 3. Use **Run** to try it live: the example runs on your computer and talks to the device. The first time, Orbit Studio creates the project's `.venv` with Python 3.13 (using [uv](https://docs.astral.sh/uv/)) and installs the SDK in it.
 4. Use **Build + Deploy** to install the signed `.orb` on the device.
 
-**Without Orbit Studio:** each example runs against the SDK copy in its `orbit-os-sdk-python/` folder, which is not in the repository (Orbit Studio downloads it). Unpack the [SDK release](https://github.com/OrbitOS-org/orbit-os-sdk-python/releases/tag/v26.0.3) into that folder, put the development certificates in `certs/grpc/`, then:
+**Without Orbit Studio:** each example runs against the SDK copy in its `orbit-os-sdk-python/` folder, which is not in the repository (Orbit Studio downloads it). Unpack the [SDK release](https://github.com/OrbitOS-org/orbit-os-sdk-python/releases/tag/v26.1.0) into that folder, put the development certificates in `certs/grpc/`, then:
 
 ```bash
 cd orbit-os-sdk-examples-python/getting-started/basic
@@ -118,7 +130,7 @@ Use Orbit Studio to package and sign the `.orb`.
 
 - **One client.** Every example creates a client with `Client.connect(host)` and closes it at the end. On the device it connects locally. The `--host` option is only used in development, when the example runs on your computer.
 - **Permissions.** `metadata.json` lists the services the app may call, such as `GpioService/*`. Orbit OS refuses calls to any service that is not listed, so each example declares only what it uses.
-- **SDK version.** `sdkVersion` in each example's `orbit.project.json` is `v26.0.3`: that is the SDK Orbit Studio downloads into `orbit-os-sdk-python/` and installs in the `.venv`.
+- **SDK version.** `sdkVersion` in each example's `orbit.project.json` is `v26.1.0`: that is the SDK Orbit Studio downloads into `orbit-os-sdk-python/` and installs in the `.venv`.
 
 ## Write your own app
 

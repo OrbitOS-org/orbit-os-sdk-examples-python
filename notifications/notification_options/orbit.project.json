@@ -1,0 +1,7 @@
+{
+  "language": "python",
+  "name": "notification_options",
+  "appPath": "src/notification_options",
+  "certsDir": "certs/grpc",
+  "sdkVersion": "v26.1.0"
+}

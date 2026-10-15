@@ -1,0 +1,11 @@
+{
+  "name": "Mobile Notification",
+  "slug": "mobile_notification",
+  "version": "1.0.0",
+  "description": "Send a push notification to the phones linked to the device owner's account",
+  "entry_point": "main.py",
+  "permissions": [
+    "MobileNotificationService/Send"
+  ],
+  "package_id": "org.orbit-os.examples.mobile_notification"
+}

@@ -3,5 +3,5 @@
   "name": "gpio_button_led",
   "appPath": "src/gpio_button_led",
   "certsDir": "certs/grpc",
-  "sdkVersion": "v26.0.3"
+  "sdkVersion": "v26.1.0"
 }

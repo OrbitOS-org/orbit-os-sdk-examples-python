@@ -1,0 +1,7 @@
+{
+  "language": "python",
+  "name": "device_certification",
+  "appPath": "src/device_certification",
+  "certsDir": "certs/grpc",
+  "sdkVersion": "v26.1.0"
+}

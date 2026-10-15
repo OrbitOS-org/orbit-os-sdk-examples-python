@@ -3,5 +3,5 @@
   "name": "spi",
   "appPath": "src/spi",
   "certsDir": "certs/grpc",
-  "sdkVersion": "v26.0.3"
+  "sdkVersion": "v26.1.0"
 }

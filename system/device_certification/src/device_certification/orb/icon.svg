@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Orbit OS example icon: device_certification. The Orbit OS tile (orbit-os-project-manager context/brand.md) with the example's drawing in its own colours. -->
+  <rect width="64" height="64" rx="10" fill="#0a0f1a"/>
+    <path d="M32 7l19 7v14c0 12-8.5 21-19 27-10.5-6-19-15-19-27V14z" fill="#43c46b"/>
+    <path d="M32 13l13 4.8v10.4c0 8.6-5.8 15-13 19.6-7.2-4.6-13-11-13-19.6V17.8z" fill="#1b5e20"/>
+    <path d="M25 30.5l5 5 9.5-10" fill="none" stroke="#ffffff" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="48" cy="48" r="7" fill="#ffca28"/><path d="M45 47.5l2.2 2.2 4-4.4" fill="none" stroke="#6d4c00" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

@@ -1,0 +1,11 @@
+{
+  "name": "Device Certification",
+  "slug": "device_certification",
+  "version": "1.0.0",
+  "description": "Check whether the app runs on certified hardware and read the certification serial",
+  "entry_point": "main.py",
+  "permissions": [
+    "SystemService/*"
+  ],
+  "package_id": "org.orbit-os.examples.device_certification"
+}
