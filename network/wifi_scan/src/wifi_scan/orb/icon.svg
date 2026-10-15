@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Orbit OS example icon: wifi_scan. The Orbit OS tile (orbit-os-project-manager context/brand.md) with the example's drawing in its own colours. -->
+  <rect width="64" height="64" rx="10" fill="#0a0f1a"/>
+    <path d="M8 28a28 28 0 0 1 36 0l-4.4 5.2a21.2 21.2 0 0 0-27.2 0z" fill="#1565c0"/>
+    <path d="M14.2 35.4a19 19 0 0 1 23.6 0l-4.4 5.2a12.2 12.2 0 0 0-14.8 0z" fill="#42a5f5"/>
+    <circle cx="26" cy="46" r="4" fill="#90caf9"/>
+    <circle cx="44" cy="40" r="8" fill="#0a0f1a" stroke="#ffffff" stroke-width="3.4"/>
+    <path d="M50 46l5 5" stroke="#ffffff" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="44" cy="40" r="3" fill="#ffca28"/>
+</svg>

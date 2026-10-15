@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Orbit OS example icon: gpio_input. The Orbit OS tile (orbit-os-project-manager context/brand.md) with the example's drawing in its own colours. -->
+  <rect width="64" height="64" rx="10" fill="#0a0f1a"/>
+    <rect x="34" y="10" width="20" height="44" rx="4" fill="#2e7d4f"/>
+    <g fill="#f2c14e"><circle cx="40" cy="18" r="2.4"/><circle cx="48" cy="18" r="2.4"/><circle cx="40" cy="27" r="2.4"/><circle cx="48" cy="27" r="2.4"/><circle cx="40" cy="45" r="2.4"/><circle cx="48" cy="45" r="2.4"/></g>
+    <circle cx="40" cy="36" r="3.4" fill="#ffffff"/><circle cx="48" cy="36" r="2.4" fill="#f2c14e"/>
+    <path d="M8 44h7V30h13" fill="none" stroke="#42a5f5" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M24 31l4.5 5-4.5 5" fill="none" stroke="#ffffff" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

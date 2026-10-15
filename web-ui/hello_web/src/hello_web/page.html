@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hello web</title>
+<style>
+  body { font-family: system-ui, sans-serif; margin: 2rem; color: #1f2430; }
+  h1 { font-size: 1.4rem; }
+  dl { display: grid; grid-template-columns: max-content 1fr; gap: .4rem 1rem; }
+  dt { color: #6b7280; }
+  dd { margin: 0; }
+</style>
+</head>
+<body>
+<h1>Hello from an Orbit OS app</h1>
+<dl>
+  <dt>Device name</dt><dd id="deviceName">…</dd>
+  <dt>Hardware model</dt><dd id="hardwareModel">…</dd>
+  <dt>Time on the device</dt><dd id="time">…</dd>
+</dl>
+<script>
+  async function refresh() {
+    const info = await (await fetch('/api/info')).json();
+    for (const key of Object.keys(info)) {
+      document.getElementById(key).textContent = info[key];
+    }
+  }
+  refresh();
+  setInterval(refresh, 5000);
+</script>
+</body>
+</html>

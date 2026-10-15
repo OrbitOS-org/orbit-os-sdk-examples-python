@@ -1,0 +1,12 @@
+{
+  "name": "Hello web",
+  "slug": "hello_web",
+  "version": "1.0.0",
+  "description": "Serve a web page through the Orbit OS Launcher, behind the device login",
+  "entry_point": "main.py",
+  "permissions": [
+    "SystemService/*",
+    "AppHubService/*"
+  ],
+  "package_id": "org.orbit-os.examples.hello_web"
+}

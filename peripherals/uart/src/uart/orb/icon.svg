@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Orbit OS example icon: uart. The Orbit OS tile (orbit-os-project-manager context/brand.md) with the example's drawing in its own colours. -->
+  <rect width="64" height="64" rx="10" fill="#0a0f1a"/>
+    <rect x="8" y="11" width="48" height="38" rx="5" fill="#1e2430"/>
+    <path d="M8 16a5 5 0 0 1 5-5h38a5 5 0 0 1 5 5v3H8z" fill="#455a64"/>
+    <circle cx="13" cy="15" r="1.4" fill="#ff5252"/><circle cx="17.5" cy="15" r="1.4" fill="#ffca28"/>
+    <path d="M15 28l5 4.5-5 4.5" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M24 37h12" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+    <path d="M20 49v5M28 49v5M36 49v5M44 49v5" stroke="#f2b632" stroke-width="2.6" stroke-linecap="round"/>
+</svg>

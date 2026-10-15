@@ -1,0 +1,11 @@
+{
+  "name": "Basic example",
+  "slug": "basic",
+  "version": "1.0.0",
+  "description": "Connect to the device and read system information: API version, device identity, hardware, OS",
+  "entry_point": "main.py",
+  "permissions": [
+    "SystemService/*"
+  ],
+  "package_id": "org.orbit-os.examples.basic"
+}

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Orbit OS example icon: wifi_status. The Orbit OS tile (orbit-os-project-manager context/brand.md) with the example's drawing in its own colours. -->
+  <rect width="64" height="64" rx="10" fill="#0a0f1a"/>
+    <path d="M6 26a30 30 0 0 1 40 0l-4.4 5.2a23.2 23.2 0 0 0-31.2 0z" fill="#1565c0"/>
+    <path d="M12.6 33.6a20 20 0 0 1 26.8 0l-4.4 5.2a13.2 13.2 0 0 0-18 0z" fill="#42a5f5"/>
+    <circle cx="26" cy="45" r="4" fill="#90caf9"/>
+    <circle cx="45" cy="44" r="10" fill="#43c46b"/>
+    <path d="M40 44.2l3.6 3.6 6.4-7.4" fill="none" stroke="#ffffff" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Orbit OS example icon: spi. The Orbit OS tile (orbit-os-project-manager context/brand.md) with the example's drawing in its own colours. -->
+  <rect width="64" height="64" rx="10" fill="#0a0f1a"/>
+    <rect x="7" y="14" width="16" height="36" rx="3" fill="#455a64"/>
+    <rect x="41" y="14" width="16" height="36" rx="3" fill="#37474f"/>
+    <g stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" fill="none">
+      <path d="M25 21h14M35 17.5l4 3.5-4 3.5" stroke="#42a5f5"/>
+      <path d="M39 30H25M29 26.5l-4 3.5 4 3.5" stroke="#ffca28"/>
+      <path d="M25 39h3v4h4v-4h3v4h4" stroke="#ffffff"/>
+    </g>
+    <circle cx="15" cy="20" r="2" fill="#42a5f5"/><circle cx="49" cy="20" r="2" fill="#ffca28"/>
+</svg>

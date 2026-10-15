@@ -1,0 +1,7 @@
+{
+  "language": "python",
+  "name": "spi",
+  "appPath": "src/spi",
+  "certsDir": "certs/grpc",
+  "sdkVersion": "v26.0.3"
+}

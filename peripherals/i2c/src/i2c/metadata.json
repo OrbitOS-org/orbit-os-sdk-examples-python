@@ -1,0 +1,12 @@
+{
+  "name": "I2C example",
+  "slug": "i2c",
+  "version": "1.0.0",
+  "description": "List the I2C buses, read the configuration and scan for devices",
+  "entry_point": "main.py",
+  "permissions": [
+    "SystemService/*",
+    "I2CService/*"
+  ],
+  "package_id": "org.orbit-os.examples.i2c"
+}

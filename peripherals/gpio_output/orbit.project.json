@@ -1,0 +1,7 @@
+{
+  "language": "python",
+  "name": "gpio_output",
+  "appPath": "src/gpio_output",
+  "certsDir": "certs/grpc",
+  "sdkVersion": "v26.0.3"
+}

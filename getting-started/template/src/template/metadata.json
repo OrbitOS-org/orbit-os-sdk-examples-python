@@ -1,0 +1,11 @@
+{
+  "name": "App template",
+  "slug": "template",
+  "version": "0.1.0",
+  "description": "Orbit OS Python SDK template app",
+  "entry_point": "main.py",
+  "permissions": [
+    "SystemService/*"
+  ],
+  "package_id": "org.orbit-os.examples.template"
+}

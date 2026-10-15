@@ -1,0 +1,12 @@
+{
+  "name": "Ethernet status example",
+  "slug": "eth_status",
+  "version": "1.0.0",
+  "description": "List the Ethernet interfaces with link state and IP configuration",
+  "entry_point": "main.py",
+  "permissions": [
+    "SystemService/*",
+    "EthernetService/*"
+  ],
+  "package_id": "org.orbit-os.examples.eth_status"
+}

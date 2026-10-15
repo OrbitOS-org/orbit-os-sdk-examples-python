@@ -1,0 +1,12 @@
+{
+  "name": "PWM fade",
+  "slug": "pwm_fade",
+  "version": "1.0.0",
+  "description": "Raise and lower the duty cycle step by step, like an LED fading in and out, then stop the output",
+  "entry_point": "main.py",
+  "permissions": [
+    "SystemService/*",
+    "PwmService/*"
+  ],
+  "package_id": "org.orbit-os.examples.pwm_fade"
+}

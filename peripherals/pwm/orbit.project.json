@@ -1,0 +1,7 @@
+{
+  "language": "python",
+  "name": "pwm",
+  "appPath": "src/pwm",
+  "certsDir": "certs/grpc",
+  "sdkVersion": "v26.0.3"
+}

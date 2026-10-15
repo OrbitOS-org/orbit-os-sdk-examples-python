@@ -1,0 +1,12 @@
+{
+  "name": "WiFi scan example",
+  "slug": "wifi_scan",
+  "version": "1.0.0",
+  "description": "List the WiFi interfaces and scan for networks",
+  "entry_point": "main.py",
+  "permissions": [
+    "SystemService/*",
+    "WiFiService/*"
+  ],
+  "package_id": "org.orbit-os.examples.wifi_scan"
+}

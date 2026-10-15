@@ -1,0 +1,12 @@
+{
+  "name": "SPI example",
+  "slug": "spi",
+  "version": "1.0.0",
+  "description": "List the SPI devices, read the configuration and run a full-duplex transfer",
+  "entry_point": "main.py",
+  "permissions": [
+    "SystemService/*",
+    "SpiService/*"
+  ],
+  "package_id": "org.orbit-os.examples.spi"
+}

@@ -1,0 +1,12 @@
+{
+  "name": "GPIO button and LED",
+  "slug": "gpio_button_led",
+  "version": "1.0.0",
+  "description": "Read a button on an input pin and drive an LED on an output pin with it",
+  "entry_point": "main.py",
+  "permissions": [
+    "SystemService/*",
+    "GpioService/*"
+  ],
+  "package_id": "org.orbit-os.examples.gpio_button_led"
+}

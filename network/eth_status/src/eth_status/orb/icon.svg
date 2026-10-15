@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Orbit OS example icon: eth_status. The Orbit OS tile (orbit-os-project-manager context/brand.md) with the example's drawing in its own colours. -->
+  <rect width="64" height="64" rx="10" fill="#0a0f1a"/>
+    <rect x="11" y="10" width="42" height="22" rx="4" fill="#455a64"/>
+    <path d="M22 16h20v12H22z" fill="#0a0f1a"/>
+    <path d="M23 30h18v8H23z" fill="#ffffff"/>
+    <path d="M27 31v4M30 31v4M33 31v4M36 31v4M39 31v4" stroke="#f2b632" stroke-width="1.6" stroke-linecap="round"/>
+    <path d="M26 38h12v6H26z" fill="#1e88e5"/>
+    <path d="M32 44v10" stroke="#1e88e5" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="16.5" cy="15.5" r="2" fill="#43c46b"/><circle cx="47.5" cy="15.5" r="2" fill="#ffca28"/>
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Orbit OS example icon: hello_web. The Orbit OS tile (orbit-os-project-manager context/brand.md) with the example's drawing in its own colours. -->
+  <rect width="64" height="64" rx="10" fill="#0a0f1a"/>
+    <rect x="7" y="10" width="50" height="44" rx="5" fill="#cfd8dc"/>
+    <rect x="10.5" y="19" width="43" height="31.5" rx="2" fill="#0a0f1a"/>
+    <circle cx="13" cy="14.5" r="1.6" fill="#ff5252"/><circle cx="18" cy="14.5" r="1.6" fill="#ffca28"/><circle cx="23" cy="14.5" r="1.6" fill="#43c46b"/>
+    <rect x="28" y="12.5" width="25" height="4" rx="2" fill="#90a4ae"/>
+    <circle cx="32" cy="34.5" r="10" fill="#1565c0"/>
+    <g fill="none" stroke="#ffffff" stroke-width="2"><circle cx="32" cy="34.5" r="10"/><ellipse cx="32" cy="34.5" rx="4.2" ry="10"/><path d="M22 34.5h20M23.5 29h17M23.5 40h17"/></g>
+</svg>

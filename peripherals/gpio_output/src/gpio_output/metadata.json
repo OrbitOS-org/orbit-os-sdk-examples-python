@@ -1,0 +1,12 @@
+{
+  "name": "GPIO output example",
+  "slug": "gpio_output",
+  "version": "1.0.0",
+  "description": "List the GPIO lines and blink the first one",
+  "entry_point": "main.py",
+  "permissions": [
+    "SystemService/*",
+    "GpioService/*"
+  ],
+  "package_id": "org.orbit-os.examples.gpio_output"
+}

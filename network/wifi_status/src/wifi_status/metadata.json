@@ -1,0 +1,12 @@
+{
+  "name": "WiFi status",
+  "slug": "wifi_status",
+  "version": "1.0.0",
+  "description": "Show, for each WiFi interface, whether it is connected, its mode and the details of the connection or access point",
+  "entry_point": "main.py",
+  "permissions": [
+    "SystemService/*",
+    "WiFiService/*"
+  ],
+  "package_id": "org.orbit-os.examples.wifi_status"
+}

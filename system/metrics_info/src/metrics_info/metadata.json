@@ -1,0 +1,11 @@
+{
+  "name": "System metrics example",
+  "slug": "metrics_info",
+  "version": "1.0.0",
+  "description": "Read one snapshot of CPU, memory, disk and temperature metrics",
+  "entry_point": "main.py",
+  "permissions": [
+    "SystemService/*"
+  ],
+  "package_id": "org.orbit-os.examples.metrics_info"
+}

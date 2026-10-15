@@ -1,0 +1,17 @@
+# TLS certificates and keys — never commit
+certs/
+**/certs/grpc/*.crt
+**/certs/grpc/*.key
+# build output
+packages/
+*.orb
+# local SDK copy downloaded by Orbit Studio
+orbit-os-sdk-python/
+# Python environment created by Orbit Studio
+.venv/
+__pycache__/
+*.pyc
+# local Orbit Studio settings
+orbit.project.local.json
+.vscode/
+.DS_Store

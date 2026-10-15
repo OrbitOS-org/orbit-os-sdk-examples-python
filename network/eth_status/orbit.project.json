@@ -1,0 +1,7 @@
+{
+  "language": "python",
+  "name": "eth_status",
+  "appPath": "src/eth_status",
+  "certsDir": "certs/grpc",
+  "sdkVersion": "v26.0.3"
+}

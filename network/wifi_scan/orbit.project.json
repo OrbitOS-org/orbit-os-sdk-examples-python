@@ -1,0 +1,7 @@
+{
+  "language": "python",
+  "name": "wifi_scan",
+  "appPath": "src/wifi_scan",
+  "certsDir": "certs/grpc",
+  "sdkVersion": "v26.0.3"
+}

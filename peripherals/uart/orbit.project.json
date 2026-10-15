@@ -1,0 +1,7 @@
+{
+  "language": "python",
+  "name": "uart",
+  "appPath": "src/uart",
+  "certsDir": "certs/grpc",
+  "sdkVersion": "v26.0.3"
+}

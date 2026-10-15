@@ -1,0 +1,7 @@
+{
+  "language": "python",
+  "name": "hello_web",
+  "appPath": "src/hello_web",
+  "certsDir": "certs/grpc",
+  "sdkVersion": "v26.0.3"
+}

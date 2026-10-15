@@ -1,0 +1,12 @@
+{
+  "name": "GPIO input example",
+  "slug": "gpio_input",
+  "version": "1.0.0",
+  "description": "Wait for an input pin (GPIO24) to go high",
+  "entry_point": "main.py",
+  "permissions": [
+    "SystemService/*",
+    "GpioService/*"
+  ],
+  "package_id": "org.orbit-os.examples.gpio_input"
+}

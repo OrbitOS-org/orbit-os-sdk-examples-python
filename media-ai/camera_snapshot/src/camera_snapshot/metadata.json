@@ -1,0 +1,12 @@
+{
+  "name": "Camera snapshot",
+  "slug": "camera_snapshot",
+  "version": "1.0.0",
+  "description": "List the cameras, take one picture with the first one and save it to a file",
+  "entry_point": "main.py",
+  "permissions": [
+    "SystemService/*",
+    "CameraService/*"
+  ],
+  "package_id": "org.orbit-os.examples.camera_snapshot"
+}

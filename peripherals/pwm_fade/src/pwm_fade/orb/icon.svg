@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Orbit OS example icon: pwm_fade. The Orbit OS tile (orbit-os-project-manager context/brand.md) with the example's drawing in its own colours. -->
+  <rect width="64" height="64" rx="10" fill="#0a0f1a"/>
+    <rect x="8" y="12" width="48" height="40" rx="5" fill="#12372a"/>
+    <path d="M8 32h48M20 12v40M32 12v40M44 12v40" stroke="#1e5c3f" stroke-width="1"/>
+    <path d="M11 32c3 0 3-2 5-2s2 4 5 4 3-9 6-9 3 14 6 14 3-19 7-19 4 22 7 22 3-6 5-6" fill="none" stroke="#69f0ae" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="16" cy="47" r="1.8" fill="#ffca28" fill-opacity="0.45"/><circle cx="32" cy="47" r="2.6" fill="#ffca28" fill-opacity="0.75"/><circle cx="48" cy="47" r="3.4" fill="#ffca28"/>
+</svg>

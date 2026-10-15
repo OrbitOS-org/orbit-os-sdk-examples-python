@@ -1,0 +1,7 @@
+{
+  "language": "python",
+  "name": "camera_snapshot",
+  "appPath": "src/camera_snapshot",
+  "certsDir": "certs/grpc",
+  "sdkVersion": "v26.0.3"
+}

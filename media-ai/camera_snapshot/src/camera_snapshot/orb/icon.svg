@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Orbit OS example icon: camera_snapshot. The Orbit OS tile (orbit-os-project-manager context/brand.md) with the example's drawing in its own colours. -->
+  <rect width="64" height="64" rx="10" fill="#0a0f1a"/>
+    <path d="M23 19l3.5-6h11l3.5 6z" fill="#2b313c"/>
+    <rect x="9" y="18" width="46" height="32" rx="6" fill="#4a5363"/>
+    <rect x="13" y="22" width="7" height="4" rx="1.5" fill="#ffca28"/>
+    <circle cx="32" cy="34" r="12" fill="#0a0f1a"/>
+    <circle cx="32" cy="34" r="8.5" fill="none" stroke="#4fc3f7" stroke-width="3"/>
+    <circle cx="32" cy="34" r="3.5" fill="#4fc3f7"/>
+    <circle cx="35.5" cy="30.5" r="1.7" fill="#ffffff"/>
+    <circle cx="48" cy="24" r="2" fill="#ff5252"/>
+</svg>

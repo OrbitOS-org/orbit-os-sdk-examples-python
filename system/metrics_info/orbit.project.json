@@ -1,0 +1,7 @@
+{
+  "language": "python",
+  "name": "metrics_info",
+  "appPath": "src/metrics_info",
+  "certsDir": "certs/grpc",
+  "sdkVersion": "v26.0.3"
+}

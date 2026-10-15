@@ -1,0 +1,12 @@
+{
+  "name": "UART example",
+  "slug": "uart",
+  "version": "1.0.0",
+  "description": "Open a serial port and print what it receives",
+  "entry_point": "main.py",
+  "permissions": [
+    "SystemService/*",
+    "UartService/*"
+  ],
+  "package_id": "org.orbit-os.examples.uart"
+}

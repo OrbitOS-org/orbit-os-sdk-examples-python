@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Orbit OS example icon: i2c. The Orbit OS tile (orbit-os-project-manager context/brand.md) with the example's drawing in its own colours. -->
+  <rect width="64" height="64" rx="10" fill="#0a0f1a"/>
+    <path d="M8 17h48" stroke="#42a5f5" stroke-width="3.4" stroke-linecap="round"/>
+    <path d="M8 26h48" stroke="#ffca28" stroke-width="3.4" stroke-linecap="round"/>
+    <path d="M17 17v17M42 17v17" stroke="#42a5f5" stroke-width="2.2" stroke-linecap="round"/>
+    <path d="M22 26v8M47 26v8" stroke="#ffca28" stroke-width="2.2" stroke-linecap="round"/>
+    <rect x="11" y="34" width="17" height="17" rx="3" fill="#455a64"/><rect x="36" y="34" width="17" height="17" rx="3" fill="#455a64"/>
+    <rect x="16" y="39" width="7" height="7" rx="1.5" fill="#ffffff"/><rect x="41" y="39" width="7" height="7" rx="1.5" fill="#ffffff"/>
+</svg>

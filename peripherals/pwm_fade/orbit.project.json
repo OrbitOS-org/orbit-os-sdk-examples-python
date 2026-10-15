@@ -1,0 +1,7 @@
+{
+  "language": "python",
+  "name": "pwm_fade",
+  "appPath": "src/pwm_fade",
+  "certsDir": "certs/grpc",
+  "sdkVersion": "v26.0.3"
+}

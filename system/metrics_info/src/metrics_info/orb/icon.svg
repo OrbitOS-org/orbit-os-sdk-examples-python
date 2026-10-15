@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Orbit OS example icon: metrics_info. The Orbit OS tile (orbit-os-project-manager context/brand.md) with the example's drawing in its own colours. -->
+  <rect width="64" height="64" rx="10" fill="#0a0f1a"/>
+    <path d="M10 38a22 22 0 0 1 9.2-17.9l4.1 5.7A15 15 0 0 0 17 38z" fill="#43c46b"/>
+    <path d="M20.6 19.1a22 22 0 0 1 22.8 0l-3.7 6A15 15 0 0 0 24.3 25z" fill="#ffca28"/>
+    <path d="M44.8 20.1A22 22 0 0 1 54 38h-7a15 15 0 0 0-6.3-12.2z" fill="#ff5252"/>
+    <path d="M32 38l9-12" stroke="#ffffff" stroke-width="3.4" stroke-linecap="round"/><circle cx="32" cy="38" r="4" fill="#ffffff"/>
+    <rect x="13" y="45" width="6" height="9" rx="1.5" fill="#1565c0"/><rect x="23" y="42" width="6" height="12" rx="1.5" fill="#42a5f5"/><rect x="33" y="47" width="6" height="7" rx="1.5" fill="#90caf9"/><rect x="43" y="44" width="6" height="10" rx="1.5" fill="#42a5f5"/>
+</svg>

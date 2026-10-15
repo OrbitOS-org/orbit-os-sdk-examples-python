@@ -1,0 +1,7 @@
+{
+  "language": "python",
+  "name": "basic",
+  "appPath": "src/basic",
+  "certsDir": "certs/grpc",
+  "sdkVersion": "v26.0.3"
+}

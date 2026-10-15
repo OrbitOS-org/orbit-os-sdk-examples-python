@@ -1,0 +1,12 @@
+{
+  "name": "PWM example",
+  "slug": "pwm",
+  "version": "1.0.0",
+  "description": "List the PWM channels and set frequency and duty cycle on the first one",
+  "entry_point": "main.py",
+  "permissions": [
+    "SystemService/*",
+    "PwmService/*"
+  ],
+  "package_id": "org.orbit-os.examples.pwm"
+}
